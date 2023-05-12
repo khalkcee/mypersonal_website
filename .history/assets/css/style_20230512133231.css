@@ -464,7 +464,7 @@ body.nav-active { overflow: hidden; }
 .hero .input-wrapper {
   position: relative;
   padding: 10px;
-  /* padding-inline-start: 20px; */
+  padding-inline-start: 20px;
   background-color: var(--bg-prussian-blue);
   border-radius: var(--radius-6);
   border: 1px solid var(--bg-carolina-blue);
@@ -492,9 +492,6 @@ body.nav-active { overflow: hidden; }
   border: 2px solid black;
   border-radius: 8px;
 }
-.hero-card:hover{
-  box-shadow: var(--shadow-2);
-}
 .about_header{
   font-size: 18px;
   margin-bottom: 20px;
@@ -516,13 +513,13 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero .shape-1 {
-  top: -60px;
+  top: -10px;
   right: -90px;
 }
 
 .hero .shape-2 {
   bottom: 20px;
-  left: -70px;
+  left: 24px;
 }
 
 

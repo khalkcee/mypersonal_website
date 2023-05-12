@@ -491,9 +491,10 @@ body.nav-active { overflow: hidden; }
   padding: 10px 15px;
   border: 2px solid black;
   border-radius: 8px;
+  .hero .input-wrapper:hover { box-shadow: var(--shadow-2); }
 }
 .hero-card:hover{
-  box-shadow: var(--shadow-2);
+  
 }
 .about_header{
   font-size: 18px;
